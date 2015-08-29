@@ -6,5 +6,15 @@ public class Client {
   private int stylistId;
   private String description;
 
+  public int getId() {
+      return id;
+    }
 
+    public int getStylistId(){
+      return stylistId;
+    }
+
+    public String getDescription() {
+      return description;
+    }
 }
