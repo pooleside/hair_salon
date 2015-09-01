@@ -81,7 +81,7 @@ public class Client {
   }
 
       public static List<Client> getClientsByStylistId(int stylistId) {
-        String sql = "SELECT * FROM clients WHERE stylsitid=" + stylistId;
+        String sql = "SELECT * FROM clients WHERE stylistid=" + stylistId;
         try (Connection con = DB.sql2o.open()) {
         return con.createQuery(sql).executeAndFetch(Client.class);
     }
