@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StylistTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-30T04:11:57" hostname="Leslies-MacBook-Pro.local" time="0.347">
+<testsuite name="StylistTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-09-01T23:06:25" hostname="Leslies-MacBook-Pro.local" time="0.168">
   <properties/>
-  <testcase name="getClients_retreivesAllClientsFromDatabase_clientsList" classname="StylistTest" time="0.244"/>
-  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="StylistTest" time="0.011"/>
-  <testcase name="all_emptyAtFirst" classname="StylistTest" time="0.018"/>
-  <testcase name="find_findStylistInDatabase_true" classname="StylistTest" time="0.027"/>
-  <testcase name="save_savesIntoDatabase_true" classname="StylistTest" time="0.044"/>
+  <testcase name="getClients_retreivesAllClientsFromDatabase_clientsList" classname="StylistTest" time="0.056"/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="StylistTest" time="0.013"/>
+  <testcase name="all_emptyAtFirst" classname="StylistTest" time="0.019"/>
+  <testcase name="find_findStylistInDatabase_true" classname="StylistTest" time="0.034"/>
+  <testcase name="save_savesIntoDatabase_true" classname="StylistTest" time="0.046"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
